@@ -1,0 +1,129 @@
+@media (max-width: 1000px) {
+   /* header  */
+   .header-li li,
+   .header-media li {
+      margin-right: 15px;
+   }
+
+   /* main wrapper  */
+   .main-wrapper h3 {
+      font-size: 20px;
+   }
+
+   .main-wrapper p {
+      font-size: 15px;
+   }
+
+   .main-wrapper p.small {
+      font-size: 10px;
+   }
+}
+
+@media (max-width: 770px) {
+   /* header  */
+   header {
+      top: 0;
+      background-color: #faf6f6;
+      transition: background-color 0.5s;
+   }
+   header i.burger-icon {
+      display: block;
+      font-size: 35px;
+      float: right;
+      color: black;
+      line-height: 150px;
+   }
+
+   .header-li,
+   .header-media {
+      display: none;
+   }
+
+   /* jumbotron  */
+   .jumbotron {
+      margin-top: 150px;
+   }
+   .jumbotron h2 {
+      font-size: 25px;
+   }
+
+   .jumbotron p {
+      font-size: 15px;
+   }
+
+   /* main wrapper  */
+   .main-wrapper .profil {
+      flex-direction: column;
+   }
+
+   .main-wrapper .profil.right {
+      flex-direction: column-reverse;
+   }
+
+   .main-wrapper .img {
+      width: 100%;
+   }
+
+   .main-wrapper .desc {
+      width: 100%;
+      margin: 25px 0 0;
+      text-align: center;
+   }
+
+   .main-wrapper .profil.right .desc h3 {
+      text-align: center;
+   }
+
+   .main-wrapper .profil.right .desc p {
+      width: 100%;
+      margin: 25px 0 0;
+      text-align: center;
+   }
+
+   .main-wrapper ul,
+   .main-wrapper .right ul {
+      float: none;
+   }
+
+   .main-media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   /* form wrap */
+   .footer-form {
+      text-align: left;
+      width: 100%;
+   }
+
+   .footer-form input,
+   textarea {
+      width: 100%;
+   }
+
+   /* footer  */
+   footer {
+      height: 120px;
+   }
+
+   .footer-menu ul {
+      display: flex;
+      margin-bottom: 10px;
+      text-align: center;
+   }
+
+   .footer-content h1 {
+      font-size: 15px;
+   }
+
+   .footer-content p {
+      text-align: center;
+      font-size: 10px;
+   }
+
+   .footer-menu ul li a,
+   .footer-menu p {
+      font-size: 8px;
+   }
+}
